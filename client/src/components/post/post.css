@@ -1,0 +1,144 @@
+.post {
+  width: 100%;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+  box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+  margin: 30px 0;
+  background-color: white
+}
+
+.postWrapper {
+  padding: 10px;
+}
+
+.postTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.postTopLeft {
+  display: flex;
+  align-items: center;
+}
+
+.postProfileImg {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.postUsername {
+  font-size: 15px;
+  font-weight: 500;
+  margin: 0 10px;
+}
+
+.postDate{
+    font-size: 12px;
+}
+
+.postCenter{
+  margin: 20px 0;
+}
+
+.postSub {
+   display: flex;
+}
+
+.postIcon{
+  display: flex;
+  font-size: 18px;
+  margin-right: 3px;
+}
+.postImg{
+    margin-top: 20px;
+    width: 100%;
+    max-height: 500px;
+    object-fit: contain;
+}
+
+.postBottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.postBottomLeft{
+    display: flex;
+    align-items: center;   
+}
+
+.likeIcon{
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.postLikeCounter{
+    font-size: 15px;
+}
+
+.postCommentText{
+    cursor: pointer;
+    border-bottom: 1px dashed gray;
+    font-size: 15px;
+    vertical-align: baseline;
+}
+
+.postCommentArrow{
+    height: 14px;
+    margin-left: 4px;
+    transform: rotate(0deg);
+    transition: transform 200ms;
+}
+
+.postCommentArrow.downward{
+    transform: rotate(180deg);
+}
+
+.shareHr {
+  margin: 20px;
+}
+
+.commentTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+
+.commentTopLeft {
+  display: flex;
+  align-items: center;
+}
+
+.commentProfileImg {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-left: 10px;
+}
+
+.commentCenter{
+  margin-left: 50px;
+  margin-bottom: 10px;
+}
+
+.tagText{
+  font-size: 15px;
+  color: rgb(88, 83, 83);
+  border-radius: 10%;
+  object-fit: cover;
+  margin-top: 3px;
+}
+
+.tagIcon{
+  display: flex;
+  font-size: 18px;
+  margin-right: 3px;
+  margin-bottom: 15px;
+}
