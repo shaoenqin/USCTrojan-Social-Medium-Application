@@ -4,6 +4,9 @@
 - Designed a Node.js server to perform CRUD operations with MongoDB for users and posts by using Express.js framework.
 - Implemented real time notification, chat page and online friends filter function using Socket.IO.
 
+# Demo video
+https://youtu.be/9mTW7dKOfk0
+
 # Connect to MongoDB
 
 ```
